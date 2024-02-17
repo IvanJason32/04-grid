@@ -161,3 +161,33 @@ p{
     padding: 11px 29.5px 10px;
     
 }
+
+@media (max-width: 481px) {
+    .principal-container {
+        grid-template-columns: repeat(1, 327px);
+        grid-template-rows: repeat(3, 442px);
+        align-content: stretch;
+        height: auto;
+        padding: 88px 0px 88px 0px;
+    }
+
+    .item-1, .item-2, .item-3 {
+        grid-template-rows: 48px 40px 35px 48px 25px 125px 25px 48px 48px;
+        
+    }
+
+    .item-1 {
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 8px;
+    }
+
+    .item-3 {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 8px;
+    }
+
+    p{
+        font-weight: 400;
+        width: 231px;
+    }
+}
